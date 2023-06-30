@@ -1,0 +1,536 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* business_relationships
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-16 18:12+0000\n"
+"PO-Revision-Date: 2021-08-16 21:25+0000\n"
+"Last-Translator: <m.jurke@gmx.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__active
+msgid "Active"
+msgstr "Aktiv"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__analytic_account_id
+msgid "Analytic Account"
+msgstr "Kostenstelle"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Any of the following must be true (leave empty to match all contacts)."
+msgstr ""
+"Eine Bedingung muss zutreffen (leer lassen, um auf alle Kontakte "
+"zuzutreffen)"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationships_search
+msgid "Archived"
+msgstr "Archiviert"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Assignment"
+msgstr "Zuweisungen"
+
+#. module: business_relationships
+#: model:res.partner.business_relationship,name:business_relationships.business_relationship_b2b
+msgid "B2B"
+msgstr ""
+
+#. module: business_relationships
+#: model:res.partner.business_relationship,name:business_relationships.business_relationship_b2c
+msgid "B2C"
+msgstr ""
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.product_pricelist_view
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_position_form
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_business_relationship_form
+msgid "Business Rel."
+msgstr "Geschäftsbez."
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_account_bank_statement_line__business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_account_move__business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_account_payment__business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_sale_order__business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_sale_report__business_relationship_id
+#: model_terms:ir.ui.view,arch_db:business_relationships.product_pricelist_view_search
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_fiscal_position_filter
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_move_business_relationship_filter
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_tree
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_order_product_search
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_res_partner_business_relationship_search
+msgid "Business Relationship"
+msgstr "Geschäftsbeziehung"
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_config_settings__show_line_subtotals_tax_selection__business_relationship_dependent
+msgid "Business Relationship Dependent"
+msgstr "Geschäftsbeziehungsabhängig"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Business Relationship Name..."
+msgstr "Geschäftsbeziehungsname..."
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_res_partner_business_relationship
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_res_partner_business_relationship_search
+msgid "Business Relationship, e.g. B2B, B2C"
+msgstr "Geschäftsbeziehung, bswp. B2B, B2C"
+
+#. module: business_relationships
+#: model:ir.actions.act_window,name:business_relationships.action_business_relationship
+#: model:ir.model.fields,field_description:business_relationships.field_account_fiscal_position__business_relationship_ids
+#: model:ir.model.fields,field_description:business_relationships.field_product_pricelist__business_relationship_ids
+#: model:ir.ui.menu,name:business_relationships.menu_partner_business_relationship
+msgid "Business Relationships"
+msgstr "Geschäftsbeziehungen"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationships_search
+msgid "Business Relationships Search"
+msgstr "Geschäftsbeziehungssuche"
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_partner_business_relationship__child_contact_pricelist__parent
+msgid "By Parent Contact"
+msgstr "Nach Elternkontakt"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__can_change_business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__can_change_business_relationship_id
+msgid "Can Change Business Relationship"
+msgstr "Geschäftsbeziehung kann geändert werden"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__child_contact_pricelist
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__child_contact_pricelist
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__child_contact_pricelist
+msgid "Child Contact Pricelist"
+msgstr "Unterkontakt-Preisliste"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Child Contacts"
+msgstr "Unterkontakte"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__color
+msgid "Color Index"
+msgstr "Farbindex"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__for_companies
+msgid "Companies"
+msgstr "Firmen"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfiguration"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_fiscal_position_filter
+msgid "Country"
+msgstr "Land"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_fiscal_position_filter
+msgid "Country Group"
+msgstr "Ländergruppe"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__default_business_relationship_id
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__default_business_relationship_id
+msgid "Default Business Relationship"
+msgstr "Abgeleitete Geschäftsbeziehung"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_account_fiscal_position__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_account_move__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_product_pricelist__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_sale_order__display_name
+#: model:ir.model.fields,field_description:business_relationships.field_sale_report__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Enforce on sale orders in website context"
+msgstr "In Aufträgen aus dem Webseiten-Kontext erzwingen"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__enforce_salesperson_website
+msgid "Enforce salesperson on sale orders in website context"
+msgstr "Salesperson in Aufträgen aus dem Webseiten-Kontext erzwingen"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__enforce_team_website
+msgid "Enforce team on sale orders in website context"
+msgstr "Team in Aufträgen aus dem Webseiten-Kontext erzwingen"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_account_fiscal_position
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_fiscal_position_filter
+msgid "Fiscal Position"
+msgstr "Steuerzuordnung"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Groups / Options"
+msgstr "Gruppen / Optionen"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_account_fiscal_position__id
+#: model:ir.model.fields,field_description:business_relationships.field_account_move__id
+#: model:ir.model.fields,field_description:business_relationships.field_product_pricelist__id
+#: model:ir.model.fields,field_description:business_relationships.field_res_config_settings__id
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__id
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__id
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__id
+#: model:ir.model.fields,field_description:business_relationships.field_sale_order__id
+#: model:ir.model.fields,field_description:business_relationships.field_sale_report__id
+msgid "ID"
+msgstr ""
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "If set, will be used as fallback image on contact creation."
+msgstr "Wenn gesetzt, wird es als Fallback-Bild bei Kontakterstellung genutzt"
+
+#. module: business_relationships
+#: model:ir.model.fields,help:business_relationships.field_res_partner_business_relationship__active
+msgid ""
+"If the active field is set to false, it will allow you to hide Business "
+"Relationship without removing it."
+msgstr ""
+"Deaktivieren erlaubt es Ihnen, einen Geschäftsbeziehungstypen zu verstecken,"
+" ohne ihn zu löschen."
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__image_1920
+msgid "Image"
+msgstr "Bild"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__image_1024
+msgid "Image 1024"
+msgstr "Bild 1024"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__image_128
+msgid "Image 128"
+msgstr "Bild 128"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__image_256
+msgid "Image 256"
+msgstr "Bild 256"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__image_512
+msgid "Image 512"
+msgstr "Bild 512"
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_partner_business_relationship__child_contact_pricelist__individual
+msgid "Individual"
+msgstr "Individuell"
+
+#. module: business_relationships
+#: model:res.partner.business_relationship,name:business_relationships.business_relationship_internal
+msgid "Internal"
+msgstr "Intern"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__for_internal_users
+msgid "Internal Users"
+msgstr "Interne Nutzer"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_account_move
+msgid "Journal Entry"
+msgstr "Buchungssatz"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_account_fiscal_position____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_account_move____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_product_pricelist____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_res_users____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_sale_order____last_update
+#: model:ir.model.fields,field_description:business_relationships.field_sale_report____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert durch"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_config_settings__show_line_subtotals_tax_selection
+msgid "Line Subtotals Tax Display"
+msgstr "Zwischensummen Steuerdarstellung"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_property_form
+msgid "Make it static"
+msgstr "Festsetzen"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__name
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_tree
+msgid "Name"
+msgstr ""
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_partner_business_relationship__update_pricelist_by__partner
+msgid "Partner Address"
+msgstr "Kundenadresse"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_product_pricelist
+msgid "Pricelist"
+msgstr "Preisliste"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner__is_fixed_property_pricelist
+#: model:ir.model.fields,field_description:business_relationships.field_res_users__is_fixed_property_pricelist
+msgid "Pricelist is fixed on this contact"
+msgstr "Preisliste ist fest auf dem Kontakt"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Pricelists"
+msgstr "Preislisten"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__for_suppliers
+msgid "Purchase (suppliers)"
+msgstr "Einkauf (Lieferanten)"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_property_form
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#. module: business_relationships
+#: model:ir.model.fields,help:business_relationships.field_account_fiscal_position__business_relationship_ids
+#: model:ir.model.fields,help:business_relationships.field_product_pricelist__business_relationship_ids
+msgid "Restrict automatic assignment to these business relationships."
+msgstr "Begrenzt die automatische Zuweisung auf diese Geschäftsbeziehungen"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_sale_report
+msgid "Sales Analysis Report"
+msgstr "Verkaufsanalysebericht"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_sale_order
+msgid "Sales Order"
+msgstr "Verkaufsauftrag"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__team_id
+msgid "Sales Team"
+msgstr "Verkaufsteam"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__salesperson_id
+msgid "Salesperson"
+msgstr "Verkäufer"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__salesperson_tax_selection_matches
+msgid "Salesperson Tax Display Matches"
+msgstr "Steuern werden dem Verkäufer auf gleiche Art dargestellt"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__self_ref_ids
+msgid "Self Ref"
+msgstr "Selbstreferenz"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__sequence
+msgid "Sequence"
+msgstr "Sequenz"
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_partner_business_relationship__update_pricelist_by__shipping
+msgid "Shipping Address"
+msgstr "Lieferadresse"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__show_line_subtotals_tax_selection
+msgid "Tax Display"
+msgstr "Steuernanzeige"
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_partner_business_relationship__show_line_subtotals_tax_selection__tax_excluded
+msgid "Tax-Excluded"
+msgstr "Steuer-exkludiert"
+
+#. module: business_relationships
+#: model:ir.model.fields.selection,name:business_relationships.selection__res_partner_business_relationship__show_line_subtotals_tax_selection__tax_included
+msgid "Tax-Included"
+msgstr "Steuer-inkludiert"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_property_form
+msgid "The Pricelist is fixed on this contact."
+msgstr "Die Preisliste ist fest auf dem Kontakt."
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_property_form
+msgid "The Pricelist will change according to configuration."
+msgstr "Die Preisliste ändert sich entsprechend Konfiguration."
+
+#. module: business_relationships
+#: model:ir.model.fields,help:business_relationships.field_account_bank_statement_line__business_relationship_id
+#: model:ir.model.fields,help:business_relationships.field_account_move__business_relationship_id
+#: model:ir.model.fields,help:business_relationships.field_account_payment__business_relationship_id
+#: model:ir.model.fields,help:business_relationships.field_res_partner__business_relationship_id
+#: model:ir.model.fields,help:business_relationships.field_res_users__business_relationship_id
+#: model:ir.model.fields,help:business_relationships.field_sale_order__business_relationship_id
+msgid ""
+"The business relationship with this contact. Use for tax display, fiscal "
+"positions and pricelists."
+msgstr ""
+"Die Geschäftsbeziehung mit diesem Kontakt. Genutzt für Steuernanzeige, "
+"Steuerzuordnungen und Preislisten."
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "This is the default for"
+msgstr "Standard Geschäftsbeziehung für"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid ""
+"To set the associated users' tax group according\n"
+"                  to the business relationship, activate the options in the"
+msgstr ""
+"Um die Steuer-Anzeige-Gruppe entsprechend der Geschäftsbeziehung zu setzen, "
+"activieren sie die Option in den"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Update By"
+msgstr "Aktualisieren nach"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__update_pricelist_by
+msgid "Update Pricelist By"
+msgstr "Preisliste aktualisieren nach"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Update Related Partners Now"
+msgstr "Verknüpfte Partner jetzt aktualisieren"
+
+#. module: business_relationships
+#: model:ir.model.fields,field_description:business_relationships.field_res_partner_business_relationship__user_ids
+msgid "User"
+msgstr "Nutzer"
+
+#. module: business_relationships
+#: model:ir.model,name:business_relationships.model_res_users
+msgid "Users"
+msgstr "Benutzer"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "Warning: The salesperson has a different tax display!"
+msgstr "Warnung: Der Verkäufer hat eine abweichende Steuernanzeige!"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_fiscal_position_filter
+msgid "With automatic detection"
+msgstr "Mit automatischer Zuweisung"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_account_fiscal_position_filter
+msgid "Without automatic detection"
+msgstr "Ohne automatischer Zuweisung"
+
+#. module: business_relationships
+#: model_terms:ir.actions.act_window,help:business_relationships.action_business_relationship
+msgid ""
+"You can manage the different B2C/B2B business relationship types in use\n"
+"      from here. Business relationships are attached to your partners."
+msgstr ""
+"Hier können Sie die verschiedenen B2C/B2B Geschäftsbeziehungen verwalten. "
+"Geschäftsbeziehungstypen werden mit Ihren Kontakten verknüpft."
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_business_relationship_form
+msgid "invoicing settings"
+msgstr "Abrechnungseinstellungen"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_business_relationship_form
+msgid "is managed on"
+msgstr "wird verwaltet über"
+
+#. module: business_relationships
+#: model_terms:ir.ui.view,arch_db:business_relationships.view_partner_business_relationship_form
+msgid "the parent contact"
+msgstr "den Elternkontakt"
+
+#. module: business_relationships
+#: model:ir.model.fields,help:business_relationships.field_res_partner_business_relationship__for_suppliers
+msgid "triggers, if purchase supplier payment terms are set"
+msgstr "trifft zu, wenn die Einkaufs-Zahlungsbedingungen gesetzt sind"
+
+#. module: business_relationships
+#: model:ir.model.fields,help:business_relationships.field_res_partner_business_relationship__for_internal_users
+msgid "triggers, if the contact has an associated employee user login"
+msgstr "trifft zu, wenn der Kontakt einem Mitarbeiter-Login zugeordnet ist"
+
+#. module: business_relationships
+#: model:ir.model.fields,help:business_relationships.field_res_partner_business_relationship__for_companies
+msgid "triggers, if the contact is a company"
+msgstr "trifft zu, wenn der Kontakt ein Firma ist"
